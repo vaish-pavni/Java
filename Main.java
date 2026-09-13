@@ -6,7 +6,10 @@ public class Main
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your name :");
         String name = sc.nextLine();
+        System.out.println("How old are you? ");
+        int age = sc.nextInt();
 
-        System.out.println("Your name is:" +name);
+        System.out.println("Hello" +name);
+        System.out.println("You are "+age+" years old.");
     }     
 }
