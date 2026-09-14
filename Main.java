@@ -7,9 +7,12 @@ public class Main
         System.out.println("Enter your name :");
         String name = sc.nextLine();
         System.out.println("How old are you? ");
-        int age = sc.nextInt();
+        String age = sc.nextLine();
+        System.out.println("Your favourite food is?");
+        String food =sc.nextLine();
 
-        System.out.println("Hello" +name);
-        System.out.println("You are "+age+" years old.");
+        System.out.println("Your name is:" +name);
+        System.out.println("Your age is: "+age);
+        System.out.println("You like: "+food);
     }     
 }
