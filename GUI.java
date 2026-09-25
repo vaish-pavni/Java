@@ -5,6 +5,6 @@ public class GUI {
         JOptionPane.showMessageDialog(null, "HELLO"+name);
         
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter age:"));
-        JOptionPane.showMessageDialog(null,"You are "+age+"years old");
+        JOptionPane.showMessageDialog(null,"You are "+age+ "years old");
     }
 }
